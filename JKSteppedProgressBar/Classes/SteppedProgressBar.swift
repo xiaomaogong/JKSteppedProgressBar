@@ -250,7 +250,7 @@ open class SteppedProgressBar: UIView {
     }
     
     func draw(image : UIImage, in rect: CGRect) {
-        let insideRect = rect.insetBy(dx: 8, dy: 8)
+        let insideRect = rect.insetBy(dx: 0, dy: 0)
         image.draw(in: insideRect)
     }
     
